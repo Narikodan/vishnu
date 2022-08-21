@@ -1,0 +1,49 @@
+body{
+    background-color: gainsboro;
+}
+h1{ 
+    color: darkgreen;
+    text-align: center;
+    text-shadow: 10px 10px 10px red;
+}
+.msd1:hover{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.msd:hover{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.msd2:hover{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1{
+    word-wrap: break-word;
+}
+/* The animation code */
+@keyframes example {
+    0%   {background-color: rgb(245, 242, 202);}
+    15%  {background-color: rgb(119, 117, 238);}
+    25%  {background-color: rgb(228, 228, 228);}
+    45%  {background-color: rgb(228, 228, 228);}
+    55%  {background-color: rgb(54, 212, 240);}
+    70%  {background-color: rgb(177, 248, 209);}
+    85%  {background-color: rgb(228, 228, 228);}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+body{
+    
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
